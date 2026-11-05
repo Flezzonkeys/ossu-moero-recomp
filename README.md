@@ -1,4 +1,4 @@
-# Ossu Native
+# Osu! Tatakae! Ouendan Native
 
 Play *Osu! Tatakae! Ouendan* (Nintendo DS) as a native program, without an emulator.
 
