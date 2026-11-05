@@ -38,6 +38,9 @@ cd ossu-moero-recomp
 **4. Build the game.** This takes about a minute and you only need to do it once:
 
 ```
+cd ossu-moero-recomp
+```
+```
 tools/build.sh
 ```
 
