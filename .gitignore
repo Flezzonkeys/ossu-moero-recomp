@@ -1,0 +1,9 @@
+# Only our own code belongs in this repo. Everything else (ROM, game data, gen/, programs) stays local.
+*
+!.gitignore
+!README.md
+!Makefile
+!src/
+!src/**
+!tools/
+!tools/**
