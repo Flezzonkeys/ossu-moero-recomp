@@ -29,11 +29,11 @@ On other systems, install the same tools with your package manager.
 **2. Download this project:**
 
 ```
-git clone https://github.com/NAME/REPO.git
-cd REPO
+git clone https://github.com/Flezzonkeys/ossu-moero-recomp.git
+cd ossu-moero-recomp
 ```
 
-**3. Copy your `.nds` file into the `REPO` folder.** The file name does not matter.
+**3. Copy your `.nds` file into the `ossu-moero-recomp` folder.** The file name does not matter.
 
 **4. Build the game.** This takes about a minute and you only need to do it once:
 
@@ -50,11 +50,11 @@ tools/build.sh
 To play again later, open a terminal and run:
 
 ```
-cd REPO
+cd ossu-moero-recomp
 ./ossu-sdl
 ```
 
-Your save file is stored as `ossu.sav` in the same folder. The commands above assume you run `cd REPO` from the place where you ran `git clone`.
+Your save file is stored as `ossu.sav` in the same folder. The commands above assume you run `cd ossu-moero-recomp` from the place where you ran `git clone`.
 
 ## Controls
 
@@ -83,18 +83,6 @@ Your save file is stored as `ossu.sav` in the same folder. The commands above as
 | In-game clock | Missing |
 
 If the game crashes, it may write the reason to `ossu_fehler.txt`. Please include that file when you report a bug.
-
-## How to build for Windows (not tested)
-
-You can build the Windows version on Linux. You need [llvm-mingw](https://github.com/mstorsjo/llvm-mingw) and the `SDL3-devel-*-mingw` package from [SDL](https://github.com/libsdl-org/SDL/releases).
-
-```
-LLVM_MINGW=/path/to/llvm-mingw \
-SDL3_MINGW=/path/to/SDL3-x.y.z/x86_64-w64-mingw32 \
-tools/build-win.sh '/path/to/your/game.nds'
-```
-
-You will find `ossu.exe` and `SDL3.dll` in the `dist/` folder. Put your `.nds` file next to them and start `ossu.exe`.
 
 ## How it works
 
