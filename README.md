@@ -30,7 +30,6 @@ On other systems, install the same tools with your package manager.
 
 ```
 git clone https://github.com/Flezzonkeys/ossu-moero-recomp.git
-cd ossu-moero-recomp
 ```
 
 **3. Copy your `.nds` file into the `ossu-moero-recomp` folder.** The file name does not matter.
