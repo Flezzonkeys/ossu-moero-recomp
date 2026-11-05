@@ -40,7 +40,7 @@ git clone https://github.com/Flezzonkeys/ossu-moero-recomp.git
 cd ossu-moero-recomp
 ```
 ```
-tools/build.sh
+bash tools/build.sh
 ```
 
 **5. Start the game:**
